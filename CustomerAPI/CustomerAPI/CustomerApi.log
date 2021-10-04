@@ -1,0 +1,51 @@
+INFO  07:38:18 Application started. Press Ctrl+C to shut down.
+INFO  07:38:18 Hosting environment: Development
+INFO  07:38:18 Content root path: D:\CustomerAPI\CustomerAPI
+INFO  07:38:28  Http Get Request for Drug Details by Location and ID
+INFO  07:40:00 Application started. Press Ctrl+C to shut down.
+INFO  07:40:00 Hosting environment: Development
+INFO  07:40:00 Content root path: D:\CustomerAPI\CustomerAPI
+INFO  07:40:09  Http Get Request for Drug Details by Location and ID
+INFO  07:49:14  Http Get Request for Drug Details by Location and ID
+INFO  07:49:14  Http Get Request for Drug Details by Location and ID
+INFO  10:26:52 Application started. Press Ctrl+C to shut down.
+INFO  10:26:52 Hosting environment: Development
+INFO  10:26:52 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\CustomerAPI\CustomerAPI
+INFO  10:27:09 Customer login is invoked
+INFO  11:24:12 REgister customer is invoked
+INFO  11:24:22 Customer login is invoked
+INFO  11:27:42 Application started. Press Ctrl+C to shut down.
+INFO  11:27:42 Hosting environment: Development
+INFO  11:27:42 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\CustomerAPI\CustomerAPI
+INFO  11:28:12 Customer login is invoked
+INFO  11:29:26 Customer login is invoked
+INFO  11:31:07 Application started. Press Ctrl+C to shut down.
+INFO  11:31:07 Hosting environment: Development
+INFO  11:31:07 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\CustomerAPI\CustomerAPI
+INFO  11:38:10 REgister customer is invoked
+INFO  11:39:40 Application started. Press Ctrl+C to shut down.
+INFO  11:39:40 Hosting environment: Development
+INFO  11:39:40 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\CustomerAPI\CustomerAPI
+INFO  11:40:24 REgister customer is invoked
+INFO  11:41:44 REgister customer is invoked
+INFO  11:41:58 Customer login is invoked
+INFO  11:44:51 Customer login is invoked
+INFO  11:46:09 Customer login is invoked
+INFO  11:46:16 Get Customer by 105 is invoked
+INFO  11:46:23 Update is invoked
+INFO  11:46:25 Get Customer by 105 is invoked
+INFO  11:52:00 Application started. Press Ctrl+C to shut down.
+INFO  11:52:00 Hosting environment: Development
+INFO  11:52:00 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\CustomerAPI\CustomerAPI
+INFO  11:53:04 Customer login is invoked
+INFO  11:57:58 Customer login is invoked
+INFO  12:00:49 Customer login is invoked
+INFO  12:01:14 Customer login is invoked
+INFO  12:01:51 Customer login is invoked
+INFO  12:02:12 Customer login is invoked
+INFO  12:05:17 Customer login is invoked
+INFO  12:08:53 Customer login is invoked
+INFO  12:11:17 Customer login is invoked
+INFO  12:13:03 Customer login is invoked
+INFO  12:13:13 Customer login is invoked
+INFO  12:14:46 Get Customer by 102 is invoked
