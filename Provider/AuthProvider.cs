@@ -1,4 +1,5 @@
-﻿using AuthorizationService.Repository;
+﻿using AuthorizationService.FlowerModel;
+using AuthorizationService.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -37,7 +38,7 @@ namespace AuthorizationService.Provider
                 var token = new JwtSecurityToken(_config["Jwt:Issuer"],
                     _config["Jwt:Issuer"],
                     null,
-                    expires: DateTime.Now.AddMinutes(15),
+                    expires: DateTime.Now.AddMinutes(1),
                     signingCredentials: credentials);
 
                 return new JwtSecurityTokenHandler().WriteToken(token);
@@ -64,9 +65,9 @@ namespace AuthorizationService.Provider
             {
                 Authenticate user = null;                
 
-                Dictionary<string,string> ValidUsersDictionary = obj.GetCredentials();
+                List<Customer> cust = obj.GetCredentials();
 
-                if (ValidUsersDictionary == null)
+                if (cust == null)
                     return null;
                 else
                 {
@@ -78,9 +79,9 @@ namespace AuthorizationService.Provider
                             break;
                         }
                     }*/
-                    if (ValidUsersDictionary.Any(u => u.Key == login.Name && u.Value == login.Password))
+                    if (cust.Any(u => u.Phone == login.Phone && u.Password == login.Password))
                     {
-                        user = new Authenticate { Name = login.Name, Password = login.Password };
+                        user = new Authenticate { Phone = login.Phone, Password = login.Password };
                     }
                 }               
 
